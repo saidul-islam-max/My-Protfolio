@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+
+#home-bannar{
+    background-image: url('1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    color:white;
+}
+.bannar-text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    font-weight: 900;
+}

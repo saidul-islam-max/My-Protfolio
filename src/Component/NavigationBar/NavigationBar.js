@@ -10,25 +10,23 @@ const NavigationBar = () => {
                 <Container >
                     <Navbar.Brand href="#" className="">Navbar scroll</Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" className="text-light" />
-                    <Navbar.Collapse id="navbarScroll" className="text-light">
+                    <Navbar.Collapse id="navbarScroll" className="text-light justify-content-end">
                         
                     <Nav
-                        className="me-auto my-auto my-lg-0 fs-5 fw-bold navText"
+                        className=" my-lg-0 fs-5 navText"
                         style={{ maxHeight: '100px' }}
                         navbarScroll
                     >
                         <a href="#action1" className="" className="mx-2  p-1 my-2">Home</a>
-                        <a href="#action1" className="" className="mx-2  p-1 my-2">Home</a>
-                        <a href="#action1" className="" className="mx-2  p-1 my-2">Home</a>
-                        <a href="#action1" className="" className="mx-2  p-1 my-2">Home</a>
-                        
-                        
-                        
+                        <a href="#action1" className="" className="mx-2  p-1 my-2">Service</a>
+                        <a href="#action1" className="" className="mx-2  p-1 my-2">About</a>
+                        <a href="#action1" className="" className="mx-2  p-1 my-2">Resume</a>
+                        <a href="#action1" className="" className="mx-2  p-1 my-2">Work</a>
+                        <a href="#action1" className="" className="mx-2  p-1 my-2">Blog</a>
+                        <a href="#action1" className="" className="mx-2  p-1 my-2">Contact</a>
+                         
                     </Nav>
-                    <Form className="d-flex">
-                        <input></input>
-                        <Button variant="outline-success">Search</Button>
-                    </Form>
+                    
                 
                     </Navbar.Collapse>
                 </Container>
