@@ -1,0 +1,27 @@
+.project-hover{
+    position: relative;
+    overflow: hidden;
+}
+
+.projectDetail{
+ position: absolute;
+ top: 0;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100%;
+ padding: 30px;
+ background-color: rgba(3, 3, 3, 0.822);
+ display: none;
+ color: white;
+}
+
+.project-hover:hover .projectDetail{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    transition:transform 2s ease-in-out;
+}

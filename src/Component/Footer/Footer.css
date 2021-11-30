@@ -1,0 +1,17 @@
+.footer-icon a{
+   
+   color: white;
+   height: 30px;
+   width: 30px;
+   margin: 7px;
+   font-size: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 15px;
+   padding: 5px;
+}
+.footer-icon a:hover{
+    background-color: blue;
+    color: white;
+}
