@@ -3,13 +3,16 @@ import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { Container, Form, Nav, Navbar, NavDropdown} from 'react-bootstrap';
 import './NavigationBar.css'
+import logo from './sij.png'
 
 const NavigationBar = () => {
     return (
-        <div className="py-2">
+        <div className="">
             <Navbar className=""  expand="lg">
                 <Container >
-                    <Navbar.Brand href="#" className="">Navbar scroll</Navbar.Brand>
+                <Link className="navbar-brand" to="/home">
+                 <img src={logo} width="150" height="60" width="100" alt="" />
+                </Link>
                     <Navbar.Toggle aria-controls="navbarScroll" className="text-light" />
                     <Navbar.Collapse id="navbarScroll" className="text-light justify-content-end">
                         
@@ -26,7 +29,12 @@ const NavigationBar = () => {
                             
                         }}
                         >Home</NavLink>
-
+                        <NavLink to="/about"
+                        activeStyle={{
+                            fontWeight: "bold",
+                            color: "black"
+                        }}
+                        >Resume</NavLink>
                         <NavLink to="/service"
                         activeStyle={{
                             fontWeight: "bold",
@@ -41,12 +49,12 @@ const NavigationBar = () => {
                         }}
                         >Contact</NavLink>
                         
-                        <NavLink to="/about"
+                        <NavLink to="/project"
                         activeStyle={{
                             fontWeight: "bold",
                             color: "black"
                         }}
-                        >Resume</NavLink>
+                        >Project</NavLink>
                          
                     </Nav>
                     

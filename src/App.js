@@ -26,16 +26,27 @@ function App() {
      <Router>
      <NavigationBar></NavigationBar>
      <Switch>
+         
+          <Route path="/home">
+            <Home />
+          </Route>
           <Route path="/about">
             <About />
           </Route>
           <Route path="/service">
             <Service />
           </Route>
-          <Route path="/">
-            <Home />
+          <Route path="/contact">
+            <Contact />
           </Route>
+          <Route path="/project">
+            <Project />
+          </Route>
+          <Route path="/">
+                  <Home />
+            </Route>
       </Switch>
+      <Footer></Footer>
      </Router>
      
     </div>

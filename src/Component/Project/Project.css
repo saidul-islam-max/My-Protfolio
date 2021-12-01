@@ -23,5 +23,5 @@
     align-items: center;
     height: 100%;
     text-align: center;
-    transition:transform 2s ease-in-out;
+    transition: 2s;
 }

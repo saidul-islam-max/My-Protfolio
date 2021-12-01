@@ -68,7 +68,7 @@ const About = () => {
                </div>
                
                       {/* ------table--------- */}
-                      <button type="button" class="btn btn-primary btn-lg">Large button</button>
+                     <a href={`https://drive.google.com/file/d/1kp3HmNlZa5WZ_dlggmsP1QaDTlkTG4sm/view`}><button type="button" class="btn btn-info btn-lg">Resume Download</button></a> 
                        </div>
                    </div>
                </div>
